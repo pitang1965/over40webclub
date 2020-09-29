@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'icon-512x512.png',
   paragraphOne:
-    'Web開発の勉強をしている40歳以上の方が、情報交換したり、助けあったり、交流を深めりするためのオンラインコミュニティです。',
+    'Web開発の勉強をしている40歳以上の方が、情報交換したり、助けあったり、交流を深めたりするためのオンラインコミュニティです。',
   paragraphTwo: '無料で非公開となっています。',
-  paragraphThree: '趣旨をご理解いただける方は誰でも加入できます。',
+  paragraphThree: '趣旨をご理解いただける方は誰でも参加できます。',
   resume: 'https://software.pitang1965.com/', // if no resume, the button will not show up
 };
 
@@ -30,7 +30,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '中高年専門のコミュニティ',
+    title: '中高年専門コミュニティ',
     info: '20代、30代の方が集まるコニュニティとは違います。',
     info2: '皆様の自己紹介が濃く、時に苦く、ちょっとジーンときてしまうことも。',
     url: 'https://software.pitang1965.com/',
@@ -59,7 +59,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '私達のコミュニティに入りたいですか? いいですね!',
+  cta: '私達のコミュニティに入りたいですか？ いいですね！',
   btn: 'ご連絡をお待ちしています',
   email: 'http://www.twitter.com/messages/compose?recipient_id=59996143',
 };
