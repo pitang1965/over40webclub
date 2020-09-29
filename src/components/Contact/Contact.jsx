@@ -21,7 +21,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+              href={email ? `${email}` : 'https://github.com/cobidev/react-simplefolio'} // 実際はメールでなくTwitter DMにしたので、mailto:を削除した。
             >
               {btn || "Let's Talk"}
             </a>
