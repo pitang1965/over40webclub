@@ -22,7 +22,7 @@ export const aboutData = {
     'Web開発の勉強をしている40歳以上の方が、情報交換したり、助けあったり、交流を深めたりするためのオンラインコミュニティです。',
   paragraphTwo: '無料で非公開となっています。',
   paragraphThree: '趣旨をご理解いただける方は誰でも参加できます。',
-  resume: 'https://software.pitang1965.com/', // if no resume, the button will not show up
+  resume: 'https://twitter.com/messages/59996143-59996143?recipient_id=59996143&text=', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -33,17 +33,18 @@ export const projectsData = [
     title: '中高年専門コミュニティ',
     info: '20代、30代の方が集まるコニュニティとは違います。',
     info2: '皆様の自己紹介が濃く、時に苦く、ちょっとジーンときてしまうことも。',
-    url: 'https://software.pitang1965.com/',
+    url: 'https://twitter.com/messages/59996143-59996143?recipient_id=59996143&text=',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
     title: '主なチャンネル',
-    info: '昨日できたばかりなので随時改良していきますが、現在以下のチャンネルがございます。',
+    info:
+      '2020-09-28にできたコミュニティで随時改良していきますが、現在以下のチャンネルがございます。',
     info2:
       '自己紹介、今日やること、将来の夢、質問、学習報告、好きな音楽、雑談、うまくいかなかった報告・・・',
-    url: 'https://software.pitang1965.com/',
+    url: 'https://github.com/pitang1965/over40webclub/issues/1',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -52,7 +53,7 @@ export const projectsData = [
     title: '当クラブのルール',
     info: '技術を競い合ったりマウントするのではなく・・・',
     info2: '興味を持ったことをじっくり学べるようお互いにサポートしていきます。',
-    url: 'https://software.pitang1965.com/',
+    url: 'https://pitang1965.github.io/over40webclub-tos/',
     repo: '', // if no repo, the button will not show up
   },
 ];
