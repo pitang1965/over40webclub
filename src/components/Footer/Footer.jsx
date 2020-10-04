@@ -19,6 +19,11 @@ const Footer = () => {
             <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
           </Link>
         </span>
+        <p className="footer__text">
+          <a href="https://twitter.com/pitang1965" target="_blank" rel="noopener noreferrer">
+            管理人：ピータン
+          </a>
+        </p>
         <div className="social-links">
           {networks &&
             networks.map((network) => {

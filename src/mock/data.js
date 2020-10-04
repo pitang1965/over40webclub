@@ -38,18 +38,18 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'channel.jpg',
     title: '主なチャンネル',
     info:
       '2020-09-28にできたコミュニティで随時改良していきますが、現在以下のチャンネルがございます。',
     info2:
-      '自己紹介、今日やること、将来の夢、質問、学習報告、好きな音楽、雑談、うまくいかなかった報告・・・',
+      '自己紹介、今日やること、将来の夢、勉強会、質問、雑談（好きな音楽、美と健康）、共同プロジェクト、成果物公開・・・',
     url: 'https://github.com/pitang1965/over40webclub/issues/1',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'manner.jpg',
     title: '当クラブのルール',
     info: '技術を競い合ったりマウントするのではなく・・・',
     info2: '興味を持ったことをじっくり学べるようお互いにサポートしていきます。',
@@ -88,5 +88,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
