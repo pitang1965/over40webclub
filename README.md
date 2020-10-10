@@ -6,4 +6,4 @@
 - Gatsby Simplefolio を元に作成しました。
 - 元の README.md は、README.org.md として保存してあります。
 - [こちら](https://over40webclub.netlify.app/)にデプロイされています。
-- 別途、利用規格が[こちら](https://github.com/pitang1965/over40webclub-tos)にあります。
+- 別途、利用規約が[こちら](https://github.com/pitang1965/over40webclub-tos)にあります。
