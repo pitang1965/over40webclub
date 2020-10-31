@@ -49,6 +49,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'zoom.jpg',
+    title: '勉強会',
+    info: '人に教えるのはとても勉強になるので、不定期にオンラインで勉強会を開催しています。',
+    info2:
+      'これまでGatsby入門の勉強会を2回開催し、これに参加したSonさんは翌日に次のサイトをデプロイしました。',
+    url: 'https://takamina-link3.netlify.app/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'manner.jpg',
     title: '当クラブのルール',
     info: '技術を競い合ったりマウントするのではなく・・・',
